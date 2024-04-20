@@ -12,8 +12,8 @@ match input("Enter calc mode(circle, square): "):
         print("Length: %s" % float(2.0 * 3.1415 * radius))
     case "square":
         side = float(input("Enter the radius(may in float)😉: "))
-        print("Perimeter: %s " % float(4 * side))
-        print("Area: %s" % float(side ** 2))
+        print(f"Perimeter: {float(4 * side)}")
+        print(f"Area: {float(side ** 2)}")
 
 # Task 3
 
@@ -40,8 +40,8 @@ print()
 money = int(input("Enter the amount of money in the account: "))
 add = int(input("Enter the number of percentages: ")) / 100
 result = money * add
-print("Percentages: %s") % result
-print("After interest payment: %s") % money - result
+print(f"Percentages: {result}")
+print(f"After interest payment: {money - result}")
 
 # Task 7
 
@@ -49,17 +49,17 @@ print()
 all_hour = int(input("Enter the number of hours: "))
 days = all_hour // 24
 hours = all_hour - (days * 24)
-print("Days: %s") % days
-print("Hours: %s") % hours
+print(f"Days: {days}")
+print(f"Hours: {hours}")
 
 # Task 8
 
 print()
 list_players = ['Adam', 'Lucifer', 'God']
-last_player = list_players[len(list_players)]
+last_player = list_players[len(list_players) - 1]
 reestr = {'First': 'Adam', 'Second': 'Lucifer', 'Third': 'God'}
-print("Last player: %s") % last_player
-print("First player: %s") % reestr['First']
+print(f"Last player: {last_player}")
+print(f"First player: {reestr['First']}")
 
 # Task 9
 
