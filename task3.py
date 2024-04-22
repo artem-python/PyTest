@@ -25,7 +25,6 @@ a.append(4)  # adds item to end of list
 a.insert(0, 4)  # adds item into given index
 a.insert(['s', 'b'])  # add list into list, may add index
 a.extend(['f', 'g'])
-len(a)  # returns length of list a
 
 del a[0]  # delete item into given index
 del a  # full delete a
@@ -41,6 +40,6 @@ a.count(1)  # returns count of item has into list
 a.copy  # copy value of list, if into list has list return reference
 a.sort()  # sorting list
 a.sort(reverse=True)  # sorting list reverse
-from copy import deepcopy
 
+from copy import deepcopy
 b = deepcopy(a)  # copy list recourse
