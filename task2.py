@@ -8,11 +8,12 @@ print("The number of books on the media: %s" % (int(float(input("Enter the stora
 # Task 2
 
 print()  # I use this to make space between tasks😜
-if input("Enter calc mode(circle, square): ") == "circle":
+mode = input("Enter calc mode(circle, square): ")
+if mode == "circle":
     radius = float(input("Enter the radius(may in float)😁: "))
     print("Area: %s " % float(3.1415 * radius ** 2.0))
     print("Length: %s" % float(2.0 * 3.1415 * radius))
-elif input("Enter calc mode(circle, square): ") == "square":
+elif mode == "square":
     side = float(input("Enter the radius(may in float)😉: "))
     print(f"Perimeter: {float(4 * side)}")
     print(f"Area: {float(side ** 2)}")
