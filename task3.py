@@ -25,6 +25,7 @@ a.append(4)  # adds item to end of list
 a.insert(0, 4)  # adds item into given index
 a.insert(['s', 'b'])  # add list into list, may add index
 a.extend(['f', 'g'])
+len(a)  # returns length of list a
 
 del a[0]  # delete item into given index
 del a  # full delete a
