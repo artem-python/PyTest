@@ -98,6 +98,8 @@ print(f"M = {m}")
 
 # Task 9
 
+print()
+print("Task 9")
 a = int(input("Input a: "))
 b = int(input("Input b: "))
 c = int(input("Input c: "))
