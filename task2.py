@@ -14,7 +14,7 @@ if mode == "circle":
     print("Area: %s " % float(3.1415 * radius ** 2.0))
     print("Length: %s" % float(2.0 * 3.1415 * radius))
 elif mode == "square":
-    side = float(input("Enter the radius(may in float)😉: "))
+    side = float(input("Enter the side size(may in float)😉: "))
     print(f"Perimeter: {float(4 * side)}")
     print(f"Area: {float(side ** 2)}")
 
