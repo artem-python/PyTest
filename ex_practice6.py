@@ -57,7 +57,7 @@ l = [0] * 9
 for i in range(10):
     k[i] = 10 - i
 for i in range(10):
-    l[i] = k[6] - k[i]
+    l[i] = k[5] - k[i]
 res = np.array(l)
 print(len(res[res < 0]))
 # Long
