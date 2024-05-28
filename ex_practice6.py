@@ -52,20 +52,18 @@ while True:
 print(f"M: {m}\nN: {n}")
 
 # 6
-k = [0] * 9
-l = [0] * 9
+l, k = [], []
 for i in range(10):
-    k[i] = 10 - i
+    k.append(10 - i)
 for i in range(10):
-    l[i] = k[5] - k[i]
+    l.append(k[5] - k[i])
 res = np.array(l)
 print(len(res[res < 0]))
 # Long
-k = [0] * 10
-l = [0] * 10
+l, k = [], []
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    k[i] = 10 - i
+    k.append(10 - i)
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    l[i] = k[6] - k[i]
+    l.append(k[5] - k[i])
 res = np.array(l)
 print(len(res[res < 0]))
