@@ -1,6 +1,6 @@
 import numpy as np
 
-# 2-3
+# 2
 a, s, p = 1, 150, 200
 
 while not a > 10:
@@ -17,6 +17,14 @@ while True:
         p += a
         s += p
 print(f"A: {a}\nP: {p}\nS: {s}")
+
+# 3
+c, d = 750, 90
+
+while d <= 0:
+    d -= 10
+    c = c / 2 + 50
+print(c)
 
 # 4
 s = 1
@@ -62,8 +70,8 @@ print(len(res[res < 0]))
 # long
 l, k = [], []
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
-   k.append(10 - i)
+    k.append(10 - i)
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
-   l.append(k[5] - k[i - 1])
+    l.append(k[5] - k[i - 1])
 res = np.array(l)
 print(len(res[res < 0]))
