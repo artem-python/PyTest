@@ -53,17 +53,17 @@ print(f"M: {m}\nN: {n}")
 
 # 6
 l, k = [], []
-for i in range(10):
+for i in range(1, 11):
     k.append(10 - i)
-for i in range(10):
-    l.append(k[5] - k[i])
+for i in range(1, 11):
+    l.append(k[5] - k[i - 1])
 res = np.array(l)
 print(len(res[res < 0]))
-# Long
+# long
 l, k = [], []
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    k.append(10 - i)
+   k.append(10 - i)
 for i in [1, 2, 3, 4, 5, 6, 7, 8, 9]:
-    l.append(k[5] - k[i])
+   l.append(k[5] - k[i - 1])
 res = np.array(l)
 print(len(res[res < 0]))

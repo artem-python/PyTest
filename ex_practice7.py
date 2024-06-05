@@ -4,6 +4,5 @@ mounth_name = ["Эльбрус", "Нупдзе", "Анаупра", "Эверес
 print(mounth_name[mounth.index(max(mounth))])
 
 # Task 2
-star = "*"
 for i in range(1, 8):
-    print(star * i)
+    print("*" * i)
